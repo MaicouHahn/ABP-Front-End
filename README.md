@@ -22,3 +22,10 @@ Desenvolver uma aplicação web para visualização e gerenciamento de produtos,
 
 ## Repositório
 [Link para o repositório no GitHub](https://github.com/MaicouHahn/ABP-Front-End)
+
+## Integrantes
+- Maicou Hahn Fortuna
+- Davi Carlos
+- Cristian Bertran
+- Alexandre Sartor
+- Guilherme Zapelini
