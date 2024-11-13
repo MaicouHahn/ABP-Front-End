@@ -11,7 +11,7 @@ Desenvolver uma aplicação web para visualização e gerenciamento de produtos,
   - HTML
   - CSS
   - JavaScript
-  - Angular
+  - React
   - Bootstrap
 
 - **Funcionalidades**:
