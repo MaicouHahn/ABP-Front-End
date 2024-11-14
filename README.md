@@ -12,7 +12,7 @@ Desenvolver uma aplicação web para visualização e gerenciamento de produtos,
   - CSS
   - JavaScript
   - React
-  - Bootstrap
+  - Tailwind CSS
 
 - **Funcionalidades**:
   - Exibição de lista de produtos
@@ -26,6 +26,6 @@ Desenvolver uma aplicação web para visualização e gerenciamento de produtos,
 ## Integrantes
 - Maicou Hahn Fortuna
 - Davi Carlos
-- Cristian Bertran
+- Cristhian Bertan
 - Alexandre Sartor
 - Guilherme Zapelini
