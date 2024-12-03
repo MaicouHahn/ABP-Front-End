@@ -12,13 +12,12 @@ Desenvolver uma aplicação web para visualização e gerenciamento de produtos,
   - CSS
   - JavaScript
   - React
-  - Tailwind CSS
 
 - **Funcionalidades**:
   - Exibição de lista de produtos
   - Adição de novos produtos
   - Edição de produtos existentes
-  - Remoção de produtos do catálogo
+  - Remoção de produtos do carrinho.
 
 ## Repositório
 [Link para o repositório no GitHub](https://github.com/MaicouHahn/ABP-Front-End)
