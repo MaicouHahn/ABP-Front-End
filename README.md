@@ -1,8 +1,25 @@
-# React + Vite
+# Catálogo de Produtos Online
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Tema
+Catálogo de Produtos Online
 
-Currently, two official plugins are available:
+## Objetivo
+Desenvolver uma aplicação web para visualização e gerenciamento de produtos, permitindo aos usuários adicionar, editar e remover itens de um catálogo em memória.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Especificações Técnicas
+- **Tecnologias Utilizadas**:
+- HTML
+- CSS
+- JavaScript
+- React
+- Vite.js
+
+- **Funcionalidades**:
+- Exibição de lista de produtos
+
+## Integrantes
+- Maicou Hahn Fortuna
+- Davi Carlos
+- Cristhian Bertan
+- Alexandre Sartor
+- Guilherme Zapelini
