@@ -3,7 +3,8 @@
   --cor-secundaria: #8967b3;
   --cor-fundo: #e6d9a2;
   --cor-complementar: #cb80ab;
-  --cor-neutra: #ffffff;
+  --cor-branco: #ffffff;
+  --cor-preto: #000000;
 }
 
 .navbar {
@@ -15,6 +16,7 @@
 
 .navbar .logo {
   width: 100px;
+  margin: 0 20px;
 }
 
 .navbar-menu {
@@ -32,11 +34,11 @@
 }
 
 .navbar button {
-  background-color: transparent;
+  background-color: var(--cor-principal);
   font-size: 16px;
-  color: var(--cor-principal);
-  padding: 10px 30px;
-  border: 1px solid black;
+  color: var(--cor-branco);
+  padding: 8px 25px;
+  border: 1px solid var(--cor-branco);
   border-radius: 20px;
   cursor: pointer;
   transition: 0.3s;
@@ -44,7 +46,6 @@
 
 .navbar button:hover {
   background-color: var(--cor-secundaria);
-  color: var(--cor-neutra);
 }
 
 .navbar .active {

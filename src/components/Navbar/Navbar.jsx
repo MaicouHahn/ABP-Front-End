@@ -13,25 +13,25 @@ const Navbar = () => {
           onClick={() => setMenu("home")}
           className={menu === "home" ? "active" : ""}
         >
-          Home
+          home
         </li>
         <li
           onClick={() => setMenu("menu")}
           className={menu === "menu" ? "active" : ""}
         >
-          Menu
+          menu
         </li>
         <li
           onClick={() => setMenu("mobile-app")}
           className={menu === "mobile-app" ? "active" : ""}
         >
-          Peça pelo App
+          baixe o app
         </li>
         <li
           onClick={() => setMenu("contact")}
           className={menu === "contact" ? "active" : ""}
         >
-          Contato
+          contato
         </li>
       </ul>
       <div className="navbar-right">
@@ -40,7 +40,7 @@ const Navbar = () => {
           <div className="notify"></div>
           <img src={assets.basket_icon} alt="" />
         </div>
-        <button>Cadastre-se</button>
+        <button>cadastre-se</button>
       </div>
     </div>
   );

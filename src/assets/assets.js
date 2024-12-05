@@ -20,6 +20,14 @@ import parcel_icon from "./parcel_icon.png";
 import order_icon from "./order_icon.png";
 import profile_image from "./profile_image.png";
 import upload_area from "./upload_area.png";
+import bolos_img from "./bolos_img.jpg";
+import sanduiches_img from "./sanduiches_img.jpg";
+import paes_img from "./paes_img.jpg";
+import bebidas_img from "./bebidas_img.jpg";
+import comemorativos_img from "./comemorativos_img.jpg";
+import combos_img from "./combos_img.jpg";
+import semgluten_img from "./semgluten_img.jpg";
+import semlactose_img from "./semlactose_img.png";
 
 export const assets = {
   logo,
@@ -47,3 +55,38 @@ export const assets = {
 };
 
 export const url = "http://localhost:5173";
+
+export const menu_list = [
+  {
+    menu_name: "Bolos",
+    menu_image: bolos_img,
+  },
+  {
+    menu_name: "Sanduíches",
+    menu_image: sanduiches_img,
+  },
+  {
+    menu_name: "Pães",
+    menu_image: paes_img,
+  },
+  {
+    menu_name: "Bebidas",
+    menu_image: bebidas_img,
+  },
+  {
+    menu_name: "Comemorativos",
+    menu_image: comemorativos_img,
+  },
+  {
+    menu_name: "Combos",
+    menu_image: combos_img,
+  },
+  {
+    menu_name: "Sem glúten",
+    menu_image: semgluten_img,
+  },
+  {
+    menu_name: "Sem lactose",
+    menu_image: semlactose_img,
+  },
+];
