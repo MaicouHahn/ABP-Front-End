@@ -1,11 +1,13 @@
 import "./Menu.css";
 import { menu_list } from "../../assets/assets";
 
-const Menu = ({ category, setCategory }) => {
+const ExploreMenu = ({ category, setCategory }) => {
   return (
-    <div className="menu" id="menu">
+    <div className="explore-menu" id="explore-menu">
       <h1>Explore o menu</h1>
-      <p className="menu-text">Explore uma gama de produtos deliciosos!</p>
+      <p className="menu-text">
+        Explore o menu com uma gama deliciosa de opções!
+      </p>
       <div className="menu-list">
         {menu_list.map((item, index) => {
           return (
@@ -18,15 +20,18 @@ const Menu = ({ category, setCategory }) => {
               key={index}
               className="menu-list-item"
             >
-              <img src={item.menu_image} alt={`Imagem de ${item.menu_name}`} />
+              <img
+                className={category === item.menu_name ? "active" : ""}
+                src={item.menu_image}
+                alt="menu_image"
+              />
               <p>{item.menu_name}</p>
             </div>
           );
         })}
       </div>
-      <hr />
     </div>
   );
 };
 
-export default Menu;
+export default ExploreMenu;

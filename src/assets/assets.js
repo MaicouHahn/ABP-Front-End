@@ -28,6 +28,9 @@ import comemorativos_img from "./comemorativos_img.jpg";
 import combos_img from "./combos_img.jpg";
 import semgluten_img from "./semgluten_img.jpg";
 import semlactose_img from "./semlactose_img.png";
+import vegan_img from "./vegan_img.png";
+import bolo_nozes from "./bolo_nozes.jpg";
+import bolo_cheesecakemorango from "./bolo_cheesecakemorango.jpg";
 
 export const assets = {
   logo,
@@ -88,5 +91,28 @@ export const menu_list = [
   {
     menu_name: "Sem lactose",
     menu_image: semlactose_img,
+  },
+  {
+    menu_name: "Vegano",
+    menu_image: vegan_img,
+  },
+];
+
+export const food_list = [
+  {
+    name: "Bolo de nozes com cobertura de chocolate",
+    image: bolo_nozes,
+    description: "description",
+    price: 50,
+    category: "Bolos",
+    id: "1",
+  },
+  {
+    name: "Cheesecake de morango com geleia de frutas vermelhas",
+    image: bolo_cheesecakemorango,
+    description: "description",
+    price: 75,
+    category: "Bolos",
+    id: "2",
   },
 ];
