@@ -1,12 +1,32 @@
+<<<<<<< HEAD
+=======
+:root {
+  --cor-principal: #624e88;
+  --cor-secundaria: #8967b3;
+  --cor-fundo: #e6d9a2;
+  --cor-complementar: #cb80ab;
+  --cor-branco: #ffffff;
+  --cor-preto: #000000;
+}
+
+>>>>>>> ef6ae42d6e2e876c4ad2f20e4802d3342ecacf0d
 .navbar {
   padding: 20px 0px;
   display: flex;
   justify-content: space-between;
   align-items: center;
+<<<<<<< HEAD
 }
 
 .navbar .logo {
   width: 125px;
+=======
+  background-color: var(--cor-secundaria);
+}
+
+.navbar .logo {
+  width: 100px;
+>>>>>>> ef6ae42d6e2e876c4ad2f20e4802d3342ecacf0d
   margin: 0 20px;
 }
 
@@ -15,6 +35,7 @@
   list-style: none;
   gap: 20px;
   color: --cor-principal;
+<<<<<<< HEAD
   font-size: 20px;
 }
 
@@ -26,6 +47,9 @@
   border-radius: 20px;
   margin-top: 5px;
   border: 2px solid #624e88;
+=======
+  font-size: 18px;
+>>>>>>> ef6ae42d6e2e876c4ad2f20e4802d3342ecacf0d
 }
 
 .navbar-right {
@@ -36,7 +60,11 @@
 
 .navbar button {
   background-color: var(--cor-principal);
+<<<<<<< HEAD
   font-size: 20px;
+=======
+  font-size: 16px;
+>>>>>>> ef6ae42d6e2e876c4ad2f20e4802d3342ecacf0d
   color: var(--cor-branco);
   padding: 8px 25px;
   border: 1px solid var(--cor-branco);
@@ -51,6 +79,7 @@
 
 .navbar .active {
   padding-bottom: 2px;
+<<<<<<< HEAD
   border-bottom: 2px solid rgb(0, 0, 0);
 }
 
@@ -58,23 +87,39 @@
   background-color: var(--cor-secundaria);
   border: 2px solid var(--cor-secundaria);
   color: var(--cor-branco);
+=======
+  border-bottom: 2px solid var(--cor-secundaria);
+>>>>>>> ef6ae42d6e2e876c4ad2f20e4802d3342ecacf0d
 }
 
 .navbar li {
   cursor: pointer;
+<<<<<<< HEAD
   transition: 0.3s;
 }
 
 .navbar-search-icon {
+=======
+}
+
+navbar-search-icon {
+>>>>>>> ef6ae42d6e2e876c4ad2f20e4802d3342ecacf0d
   position: relative;
 }
 
 .navbar-search-icon .notify {
   position: absolute;
+<<<<<<< HEAD
   min-width: 8px;
   min-height: 8px;
   background-color: #ff0000;
   border-radius: 5px;
   top: -8px;
   right: -8px;
+=======
+  min-width: 10px;
+  min-height: 10px;
+  background-color: #ff0000;
+  border-radius: 5px;
+>>>>>>> ef6ae42d6e2e876c4ad2f20e4802d3342ecacf0d
 }

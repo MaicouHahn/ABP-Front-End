@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap");
 
+<<<<<<< HEAD
 :root {
   --cor-principal: #624e88;
   --cor-secundaria: #8967b3;
@@ -10,6 +11,8 @@
   --cor-preto: #000000;
 }
 
+=======
+>>>>>>> ef6ae42d6e2e876c4ad2f20e4802d3342ecacf0d
 * {
   padding: 0;
   margin: 0;
@@ -21,6 +24,7 @@ body {
   min-height: 100vh;
 }
 
+<<<<<<< HEAD
 .app {
   background-color: white;
   padding: ;
@@ -36,6 +40,18 @@ a {
   margin: auto;
 }
 
+=======
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.App {
+  width: 80%;
+  margin: auto;
+}
+
+>>>>>>> ef6ae42d6e2e876c4ad2f20e4802d3342ecacf0d
 @keyframes fadeIn {
   0% {
     opacity: 0;

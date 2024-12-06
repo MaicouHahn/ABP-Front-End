@@ -1,7 +1,12 @@
+<<<<<<< HEAD
 /* eslint-disable react/prop-types */
 
 import "./Menu.css";
 import { menu_list } from "../../assets/assets.js";
+=======
+import "./Menu.css";
+import { menu_list } from "../../assets/assets";
+>>>>>>> ef6ae42d6e2e876c4ad2f20e4802d3342ecacf0d
 
 const ExploreMenu = ({ category, setCategory }) => {
   return (

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /* eslint-disable react/jsx-key */
 import { useContext, useState } from "react";
 import "./Compras.css";
@@ -147,5 +148,14 @@ const Compras = () => {
     </div>
   );
 };
+=======
+import React from "react";
+import "./Compras.css";
+
+const Compras = () => {
+  return <div></div>;
+};
+import "./Compras.css";
+>>>>>>> ef6ae42d6e2e876c4ad2f20e4802d3342ecacf0d
 
 export default Compras;
