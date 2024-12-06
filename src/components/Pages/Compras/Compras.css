@@ -1,0 +1,140 @@
+.cart {
+  margin-top: 100px;
+}
+
+.cart-items-title {
+  display: grid;
+  grid-template-columns: 1fr 1.5fr 1fr 1fr 1fr 0.5fr;
+  align-items: center;
+  color: grey;
+  font-size: max(1vw, 12px);
+}
+
+.cart-items-title img {
+  width: 100px;
+}
+
+.cart-items-item {
+  margin: 10px 0;
+  color: black;
+}
+
+.cart hr {
+  height: 1px;
+  background-color: var(--cor-fundo);
+  border: none;
+}
+
+.cart-items-item .cross {
+  cursor: pointer;
+  font-weight: 500;
+  background-color: red;
+  color: var(--cor-branco);
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  box-shadow: 0px 0px 10px #00000015;
+}
+
+.cart-items-item .cross:hover {
+  transform: scale(1.1);
+}
+
+.cart-bottom {
+  margin-top: 80px;
+  display: flex;
+  justify-content: space-between;
+  gap: max(12w, 20px);
+}
+
+.cart-total {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.cart-total-details {
+  display: flex;
+  justify-content: space-between;
+  color: var(--cor-preto);
+}
+
+.cart-total hr {
+  margin: 5px 0;
+}
+
+.cart-total button {
+  align-self: self-end;
+  font-size: max(1vw, 16px);
+  border: none;
+  color: var(--cor-branco);
+  background-color: #018b23;
+  width: max(15vw, 200px);
+  padding: 12px 0;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.cart-code {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.cart-code p {
+  color: var(--cor-preto);
+  padding: 10px 5px;
+}
+
+.cart-code-input input {
+  background: transparent;
+  border: none;
+  padding: 10px 0;
+  padding-left: 10px;
+  outline-color: var(--cor-principal);
+}
+
+.cart-code-input button {
+  width: max(10vw, 150px);
+  padding: 12px 5px;
+  cursor: pointer;
+  color: var(--cor-branco);
+  background-color: black;
+}
+
+.cart-code-input button:hover {
+  background-color: #018b23;
+  transition: 0.3s;
+}
+
+.cart-total button:hover {
+  transition: 0.3s;
+  transform: scale(1.05);
+  background-color: #01b42e;
+}
+
+.code-on .code-valid {
+  margin-top: 20px;
+  background-color: rgba(255, 208, 0, 0.842);
+  font-weight: 500;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.cart-code-input .valid-code{
+  color: rgb(150, 150, 150);
+}
+
+.empty-cart-message h2{
+  margin-top: 40px;
+  font-weight: 400;
+  color: var(--cor-preto);
+}
+
+.empty-cart-message a{
+  font-weight: 600;
+  color: var(--cor-principal);
+  cursor: pointer;
+}

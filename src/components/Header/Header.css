@@ -1,0 +1,68 @@
+.header {
+  display: flex;
+  height: 30vw;
+  margin: 30px auto;
+  width: 100%;
+  background: url("/header_img.jpg") no-repeat;
+  background-size: 100%;
+  position: relative;
+  border-radius: 15px;
+  box-shadow: 0 2px 15px rgba(0, 0, 0, 1);
+}
+
+.header::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: var(--cor-fundoheader);
+  z-index: 0; /* Coloca a camada abaixo do conteúdo */
+}
+
+.header-contents {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  align-items: self-start;
+  gap: 1.5vw;
+  max-width: 30%;
+  bottom: 3vw;
+  left: 3vw;
+  font-weight: 500;
+  color: var(--cor-preta);
+  background-color: var(--cor-fundo);
+  border-radius: 15px;
+  padding: 10px 20px;
+  animation: fadeIn 3s;
+  text-align: justify;
+}
+
+.header-contents h2 {
+  font-weight: 500;
+  font-size: max(4.5vw);
+}
+
+.header-contents p {
+  color: var(--cor-branca);
+  font-size: 1.2vw;
+}
+
+.header button {
+  background-color: var(--cor-principal);
+  font-size: 16px;
+  font-weight: 500;
+  color: var(--cor-branco);
+  padding: 8px 25px;
+  border-radius: 20px;
+  margin-bottom: 10px;
+  cursor: pointer;
+  transition: 0.3s;
+  border: none;
+}
+
+.header button:hover {
+  background-color: var(--cor-secundaria);
+  color: var(--cor-neutra);
+}
