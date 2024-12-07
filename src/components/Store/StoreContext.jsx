@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 /* eslint-disable react/prop-types */
 import { createContext, useState } from "react";
 import { food_list } from "../../assets/assets";
@@ -57,22 +56,6 @@ const StoreContextProvider = (props) => {
     <StoreContext.Provider value={contextValue}>
       {props.children}
     </StoreContext.Provider>
-=======
-import React, { createContext } from "react";
-import { food_list } from "../../assets/assets";
-
-export const StoreContext = createContext(null);
-
-const StoreContextProvider = (props) => {
-  const contextValue = {
-    food_list,
-  };
-
-  return (
-    <StoreContextProvider.Provider value={contextValue}>
-      {props.children}
-    </StoreContextProvider.Provider>
->>>>>>> ef6ae42d6e2e876c4ad2f20e4802d3342ecacf0d
   );
 };
 

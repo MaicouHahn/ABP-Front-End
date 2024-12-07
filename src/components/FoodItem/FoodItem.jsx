@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 /* eslint-disable react/prop-types */
 import { useContext } from "react";
 import "./FoodItem.css";
@@ -41,30 +40,14 @@ const FoodItem = ({ id, name, price, description, image }) => {
             </div>
           </>
         )}
-=======
-import React from "react";
-import "./FoodItem.css";
-import { assets } from "../../assets/assets";
-
-const FoodItem = ({ name, image, description, price, category, id }) => {
-  return (
-    <div className="food-item">
-      <div className="food-item-img-container">
-        <img className="food-item-img" src={image} alt="" />
->>>>>>> ef6ae42d6e2e876c4ad2f20e4802d3342ecacf0d
       </div>
       <div className="food-item-infos">
         <div className="food-item-name-rating">
           <p>{name}</p>
-<<<<<<< HEAD
         </div>
         <p className="food-item-desc">{description}</p>
         <img src={assets.rating_starts} alt="" />
         <p className="food-item-price">R${price},00</p>
-=======
-          <img src={assets} alt="" />
-        </div>
->>>>>>> ef6ae42d6e2e876c4ad2f20e4802d3342ecacf0d
       </div>
     </div>
   );

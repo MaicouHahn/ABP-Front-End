@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 .header {
   display: flex;
   height: 30vw;
@@ -20,26 +19,6 @@
   bottom: 0;
   background: var(--cor-fundoheader);
   z-index: 0; /* Coloca a camada abaixo do conteúdo */
-=======
-:root {
-  --cor-principal: #624e88;
-  --cor-secundaria: #8967b3;
-  --cor-fundo: #e6d9a2;
-  --cor-complementar: #cb80ab;
-  --cor-branco: #ffffff;
-  --cor-preto: #000000;
-}
-
-.header {
-  display: flex;
-  height: 34vw;
-  margin: 30px auto;
-  max-width: 60vw;
-  background: url("/header_img.jpg") no-repeat;
-  background-size: auto;
-  position: relative;
-  border-radius: 15px;
->>>>>>> ef6ae42d6e2e876c4ad2f20e4802d3342ecacf0d
 }
 
 .header-contents {
@@ -48,7 +27,6 @@
   position: absolute;
   align-items: self-start;
   gap: 1.5vw;
-<<<<<<< HEAD
   max-width: 30%;
   bottom: 3vw;
   left: 3vw;
@@ -59,46 +37,23 @@
   padding: 10px 20px;
   animation: fadeIn 3s;
   text-align: justify;
-=======
-  max-width: 60%;
-  bottom: 3vw;
-  left: 3vw;
-  color: white;
-  background-color: black;
-  border-radius: 15px;
-  padding: 10px 20px;
-  animation: fadeIn 3s;
->>>>>>> ef6ae42d6e2e876c4ad2f20e4802d3342ecacf0d
 }
 
 .header-contents h2 {
   font-weight: 500;
-<<<<<<< HEAD
-=======
-  color: white;
->>>>>>> ef6ae42d6e2e876c4ad2f20e4802d3342ecacf0d
   font-size: max(4.5vw);
 }
 
 .header-contents p {
-<<<<<<< HEAD
   color: var(--cor-branca);
   font-size: 1.2vw;
-=======
-  color: var(--cor-branco);
-  font-size: 1vw;
->>>>>>> ef6ae42d6e2e876c4ad2f20e4802d3342ecacf0d
 }
 
 .header button {
   background-color: var(--cor-principal);
   font-size: 16px;
   font-weight: 500;
-<<<<<<< HEAD
   color: var(--cor-branco);
-=======
-  color: var(--cor-neutra);
->>>>>>> ef6ae42d6e2e876c4ad2f20e4802d3342ecacf0d
   padding: 8px 25px;
   border-radius: 20px;
   margin-bottom: 10px;

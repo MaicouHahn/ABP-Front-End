@@ -1,15 +1,3 @@
-<<<<<<< HEAD
-=======
-:root {
-  --cor-principal: #624e88;
-  --cor-secundaria: #8967b3;
-  --cor-fundo: #e6d9a2;
-  --cor-complementar: #cb80ab;
-  --cor-branco: #ffffff;
-  --cor-preto: #000000;
-}
-
->>>>>>> ef6ae42d6e2e876c4ad2f20e4802d3342ecacf0d
 .menu-list img {
   width: 100px;
   height: 100px;
@@ -31,10 +19,6 @@
 
 .menu-text {
   max-width: 60%;
-<<<<<<< HEAD
-=======
-  columns: red;
->>>>>>> ef6ae42d6e2e876c4ad2f20e4802d3342ecacf0d
 }
 
 .menu-list {
@@ -59,11 +43,7 @@
 .menu-list p {
   margin-top: 10px;
   color: var(--cor-preto);
-<<<<<<< HEAD
   font-size: max(1.2vw, 16px);
-=======
-  font-size: max(1.4vw, 16px);
->>>>>>> ef6ae42d6e2e876c4ad2f20e4802d3342ecacf0d
   cursor: pointer;
 }
 
@@ -76,23 +56,16 @@
 
 .menu-list-item img {
   box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.6);
-<<<<<<< HEAD
   border: 3px solid var(--cor-fundo);
-=======
->>>>>>> ef6ae42d6e2e876c4ad2f20e4802d3342ecacf0d
 }
 
 .menu-list-item {
   padding: 5px;
-<<<<<<< HEAD
 }
 
 .menu-list-item:hover {
   padding: 5px;
   transform: scale(1.05);
-=======
-  border-radius: 1px solid black;
->>>>>>> ef6ae42d6e2e876c4ad2f20e4802d3342ecacf0d
 }
 
 .menu-list-item .active {

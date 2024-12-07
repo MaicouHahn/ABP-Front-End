@@ -1,9 +1,6 @@
 import basket_icon from "./basket_icon.png";
 import logo from "./logo.png";
-<<<<<<< HEAD
 import footer_logo from "./footer_logo.png";
-=======
->>>>>>> ef6ae42d6e2e876c4ad2f20e4802d3342ecacf0d
 import search_icon from "./search_icon.png";
 import add_icon_white from "./add_icon_white.png";
 import add_icon_green from "./add_icon_green.png";
@@ -26,10 +23,7 @@ import profile_image from "./profile_image.png";
 import upload_area from "./upload_area.png";
 import bolos_img from "./bolos_img.jpg";
 import sanduiches_img from "./sanduiches_img.jpg";
-<<<<<<< HEAD
 import sanduiche_castanha from "./sanduiche_castanha.jpg";
-=======
->>>>>>> ef6ae42d6e2e876c4ad2f20e4802d3342ecacf0d
 import paes_img from "./paes_img.jpg";
 import bebidas_img from "./bebidas_img.jpg";
 import comemorativos_img from "./comemorativos_img.jpg";
@@ -39,11 +33,8 @@ import semlactose_img from "./semlactose_img.png";
 import vegan_img from "./vegan_img.png";
 import bolo_nozes from "./bolo_nozes.jpg";
 import bolo_cheesecakemorango from "./bolo_cheesecakemorango.jpg";
-<<<<<<< HEAD
 import paobatata from "./paobatata.jpg";
 import paoabobora from "./paoabobora.jpg";
-=======
->>>>>>> ef6ae42d6e2e876c4ad2f20e4802d3342ecacf0d
 
 export const assets = {
   logo,
@@ -68,7 +59,6 @@ export const assets = {
   bag_icon,
   parcel_icon,
   order_icon,
-<<<<<<< HEAD
   footer_logo,
 };
 
@@ -106,10 +96,6 @@ export const assets = {
 // bolo_nozes,
 // bolo_cheesecakemorango
 
-=======
-};
-
->>>>>>> ef6ae42d6e2e876c4ad2f20e4802d3342ecacf0d
 export const url = "http://localhost:5173";
 
 export const menu_list = [
@@ -118,11 +104,7 @@ export const menu_list = [
     menu_image: bolos_img,
   },
   {
-<<<<<<< HEAD
     menu_name: "Sanduiches",
-=======
-    menu_name: "Sanduíches",
->>>>>>> ef6ae42d6e2e876c4ad2f20e4802d3342ecacf0d
     menu_image: sanduiches_img,
   },
   {
@@ -157,7 +139,6 @@ export const menu_list = [
 
 export const food_list = [
   {
-<<<<<<< HEAD
     _id: "1",
     name: "Bolo de Nozes e Chocolate",
     image: bolo_nozes,
@@ -200,21 +181,5 @@ export const food_list = [
       "O pão de abóbora artesanal é suave, levemente adocicado e preparado com ingredientes naturais, oferecendo um sabor único e nutritivo.",
     price: 10,
     category: "Pães",
-=======
-    name: "Bolo de nozes com cobertura de chocolate",
-    image: bolo_nozes,
-    description: "description",
-    price: 50,
-    category: "Bolos",
-    id: "1",
-  },
-  {
-    name: "Cheesecake de morango com geleia de frutas vermelhas",
-    image: bolo_cheesecakemorango,
-    description: "description",
-    price: 75,
-    category: "Bolos",
-    id: "2",
->>>>>>> ef6ae42d6e2e876c4ad2f20e4802d3342ecacf0d
   },
 ];
